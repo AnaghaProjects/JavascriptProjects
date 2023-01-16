@@ -1,0 +1,76 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url("./images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    width: 40%;
+    border-radius: 7px;
+    /* background: #fff; */
+    display: flex;
+    flex-direction: column;
+    padding: 0.94rem;
+}
+
+.container .widget {
+    margin: 0.7rem;
+    height: 3.4rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+}
+
+.container button {
+    text-transform: uppercase;
+    background: #07f413;
+    width: 30%;
+    align-self: center;
+    font-size: 1.8rem !important;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 5% !important;
+}
+
+.container .signupMsg {
+    margin-top: -1%;
+    align-self: center;
+    color: #fff;
+    font-size: 1.1rem !important;
+}
+
+.container .signupMsg a{
+    color: rgb(188, 223, 16);
+}
+
+.errorMsg {
+    margin: 0 0.6rem;
+}
+
+.errorMsg a {
+    font-weight: 500;
+    font-size: 1.1rem !important;
+    color: rgb(239, 60, 60);
+}
+
+.displayBlock {
+    display: none;
+}

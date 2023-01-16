@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn / SignUp</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"  />
+    <!-- Ref: https://login.mailchimp.com/ -->
+</head>
+
+<body>
+    <div class="containerSignUpIn">
+        <div class="wrapperSignUpIn">
+            <div class="signInContainer">
+                <h1>Log In</h1>
+                <div class="signIn">
+                    <span class="signUpMsg">Need a Bookworm account? <a href="./signUp.html">Create an account</a></span>
+                    <form id="loginForm">
+                        <div class="formGroup">
+                            <label for="email">Username or Email</label>
+                            <input type="text" for="email">
+                        </div>
+                        <div class="formGroup">
+                            <div class="passwordLabel">
+                                <label for="password">Password</label>
+                                <label for="show"><i class="fas fa-eye"></i>Show</label>
+                            </div>
+                            <input type="password" for="password">
+                        </div>
+                        <div class="formGroup">
+                            <button>Log In</button>
+                        </div>
+                    </form>
+                    <div class="signInLink">
+                        <input type="checkbox">
+                        <label for="keepLogin">Keep me logged in</label>
+                    </div>
+                    <div class="signInLink">
+                        <a href="./forgotUsername.html">Forgot username?</a>
+                        <a href="./forgotPassword.html"> Forgot password?</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

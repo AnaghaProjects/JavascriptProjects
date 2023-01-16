@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn / SignUp</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"  />
+    <!-- Ref: https://login.mailchimp.com/ -->
+</head>
+
+<body>
+    <div class="containerSignUpIn">
+        <div class="wrapperSignUpIn">
+            <div class="signInContainer">
+                <h1>Recover Your Username</h1>
+                <div class="signIn">
+                    <span class="forgotMsg">Having an identity crisis? You can recover your Bookworm username using the email address or SMS number associated with your account</span>
+                    <form id="forgotForm">
+                        <div class="formGroup">
+                            <div class="forgotUsrGroup">
+                                <input type="radio" for="email" name="nameRecover" id="forgotUsrEmail" checked>
+                                <label for="username">Recover using the email address on your account</label>
+                            </div>
+                            <input type="text" for="email" class="forgotUsrInput forgotUsrIpEmail" >
+                        </div>
+                        <div class="formGroup">
+                            <div class="forgotUsrGroup">
+                                <input type="radio" for="email" name="nameRecover" id="forgotUsrSMS">
+                                <label for="username">Recover using the mobile number on your account</label>
+                            </div>
+                            <input type="text" for="mobile" class="forgotUsrInput forgotUsrIpSMS" >
+                        </div>
+                        <div class="formGroup">
+                            <button>Recover Username</button>
+                        </div>
+                    </form>
+                    <div class="signInLink">
+                        <a href="./index.html">Return to login</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

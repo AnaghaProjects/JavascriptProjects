@@ -1,0 +1,154 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.containerSignUpIn {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background: url("./images/bg-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerSignUpIn .wrapperSignUpIn {
+    border: 3px solid #fff;
+    height: 100vh;
+    width: 40vw;
+    margin: 1%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapperSignUpIn .signInContainer {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    /* line-height: 2.8rem; */
+}
+
+.signInContainer h1 {
+    font-size: 2.4rem;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    margin: 1rem 0rem;
+}
+
+.signIn {
+    font-size: 1.1rem;
+}
+
+.signIn .signUpMsg{
+    color: rgb(92, 88, 88);
+}
+
+.signIn .signUpMsg a,
+.signIn .signInLink a,
+.signUpLink label a {
+    color: #02535c;
+    font-weight: 100;
+}
+
+.signIn .formGroup {
+    display: flex;
+    flex-direction: column;
+    margin: 1.4rem 0;
+}
+
+.signIn .formGroup .passwordLabel label:last-child {
+    float: right;
+    color: #007c89;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signIn .formGroup .passwordLabel label:last-child i{
+    margin-right: 8px;
+}
+
+.signIn .formGroup label{
+   font-weight: 500;
+}
+
+.signIn .formGroup input{
+    height: 3rem;
+    outline: none;
+}
+
+.signIn .formGroup button{
+    height: 3rem;
+    color: #ffffff;
+    background-color: #007c89;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.signIn .signInLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1.6rem 0;
+}
+
+.signIn .signInLink input{
+    margin-right: 2%;
+    
+}
+
+.signIn .signInLink label{
+    font-weight: 400;
+}
+
+.signIn .signUpLink .argementTerm {
+    margin-top: 2rem;
+}
+
+.signIn .signInLink a:first-child {
+    margin: 0 1rem;
+}
+
+/* Sign Up Page */
+
+.signUpLink label {
+    font-size: small;
+}
+
+/* Forgot Page  */
+.forgotMsg {
+    color: rgb(92, 88, 88);   
+    line-height: -1rem;
+    font-size: 0.8rem;
+}
+
+#forgotForm .formGroup .forgotUsrGroup{
+    display: flex;
+    flex-direction: row;
+    margin: 0.4rem 0;
+}
+
+#forgotForm .formGroup .forgotUsrGroup input{
+    margin-right: 0.4rem;
+}
+
+#forgotForm .formGroup .forgotUsrInput {
+    margin-left: 1.2rem;
+}
+
+
+
