@@ -1,0 +1,76 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.wrapper .carousel {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+.carousel .card {
+    line-height: 250px;
+    text-align: center;
+    color: #fff;
+    font-size: 90px;
+    font-weight: 600;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: opx 4px 15px rgba(0,0,0,0.2);
+}
+
+.carousel .card-1 {
+    background: #ed1c24;
+}
+
+.carousel .card-2 {
+    background: #0072bc;
+}
+
+.carousel .card-3 {
+    background: #39b54a;
+}
+
+.carousel .card-4 {
+    background: #f26522;
+}
+
+.carousel .card-5 {
+    background: #39b54a;
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: -130px;
+}
+.owl-dot {
+    height: 15px;
+    width: 45px;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #0072bc!important;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+.owl-dot:hover,
+.owl-dot.active {
+    background: #0072bc!important;
+}
